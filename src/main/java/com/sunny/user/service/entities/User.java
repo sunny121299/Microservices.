@@ -38,6 +38,11 @@ public class User {
 	
 	@Transient
 	List<Rating> ratings = new ArrayList<>();
+
+//	public void setUserId(String randomeUserId) {
+//		// TODO Auto-generated method stub
+//		this.id = randomeUserId;
+//	}
 	
 
 	

@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService{
 	public User saveUser(User user) {
 		// TODO Auto-generated method stub
 		String randomeUserId = UUID.randomUUID().toString();
-		user.setUserId(randomeUserId);
+		user.setId(randomeUserId);
 		return userRepository.save(user);
 	}
 
